@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh stkamsets@stkamsets.cloudapp.net  <<EOF
+ssh root@138.197.223.48  <<EOF
   cd ~/HelloWorld
   git pull
   npm install --production
